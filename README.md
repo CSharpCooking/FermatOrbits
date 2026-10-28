@@ -71,4 +71,4 @@ python3 python/orbits_check.py gl3 19
 
 ## Лицензия
 
-MIT, см. [LICENSE](LICENSE).
+Apache License 2.0, см. [LICENSE](LICENSE) и [NOTICE](NOTICE).
