@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- FermatOrbits: проверка результатов статьи об орбитах решений сравнения Ферма.
+       Целевая платформа подставляется файлом FermatOrbits.cmd по установленному SDK
+       (-p:TargetFramework=netX.0); по умолчанию net8.0. Сторонних пакетов нет. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RollForward>LatestMajor</RollForward>
+    <AssemblyName>FermatOrbits</AssemblyName>
+    <RootNamespace>FermatOrbits</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Optimize>true</Optimize>
+    <NoWarn>CA1416</NoWarn>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+</Project>
